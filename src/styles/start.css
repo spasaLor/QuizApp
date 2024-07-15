@@ -1,0 +1,29 @@
+.start-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    color: var(--main-purple);
+}
+
+.start-content h1{
+    letter-spacing: 0.1em;
+}
+
+.start-content button{
+    padding: 15px 10px;
+    width: 250px;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--main-purple);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in;
+}
+
+.start-content button:hover{
+    background-color: rgb(91, 45, 161);
+}

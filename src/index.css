@@ -1,0 +1,11 @@
+#root{
+    height: 100%;
+    width: 100%;
+}
+:root{
+    --main-purple:rgb(73, 35, 131);
+    --light-blue: rgb(154, 172, 220);
+    --dark-blue:rgb(26, 15, 93);
+    --green:rgb(109, 175, 126);
+
+}
