@@ -21,7 +21,6 @@ export default function QuizPage({setPage,questions,answers,setQuestions,setAnsw
                     let answers=[...res.incorrect_answers];
                     answers.push(he.decode(res.correct_answer));
                     const shuffledAnswers = shuffleList(answers);
-                    console.log(shuffledAnswers);
                     return {question:he.decode(res.question), answers:shuffledAnswers, correct:res.correct_answer}
                 });
             }
